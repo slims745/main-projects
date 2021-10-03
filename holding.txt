@@ -1,0 +1,106 @@
+
+
+//file directory
+
+src/modules/general/commands/EXAMPLE.js
+
+
+//commands
+
+const { stripIndents } = require('common-tags');
+
+const { Command } = require('../../../handler');
+
+module.exports = class extends Command {
+  constructor() {
+    super('test', {
+      aliases: ['testing'],
+      info: 'run a test ',
+      usage: 'test',
+      guildOnly: false,
+    });
+  }
+
+  async run(message) {
+    const msg = await message.channel.send('testing...');
+   
+    }
+}
+
+https://nekobot.xyz/api/image?type=hentai
+
+
+https://teespring.com/smug-megumin
+
+
+async run(message) {
+  const messages = ["",
+                    ""
+          	      
+                   ]
+  const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+
+		return message.channel.send(randomMessage);
+    }
+}
+
+
+
+//random command
+
+
+
+const { stripIndents } = require('common-tags');
+
+const { Command } = require('../../../handler');
+
+module.exports = class extends Command {
+  constructor() {
+    super('test', {
+      aliases: ['testing'],
+      info: 'run a test ',
+      usage: 'test',
+      guildOnly: false,
+    });
+  }
+
+  async run(message) {
+  const messages = ["",
+                    ""
+          	      
+                   ]
+  const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+
+		return message.channel.send(randomMessage);
+    }
+}
+
+
+
+//try here    
+
+try {
+        await cmd.run(message, args);
+      } catch (err) {
+        console.error(err);
+        message.reply('bleep bloop an error occured :C');
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
