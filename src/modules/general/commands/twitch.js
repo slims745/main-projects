@@ -1,0 +1,19 @@
+const { stripIndents } = require('common-tags');
+
+const { Command } = require('../../../handler');
+
+module.exports = class extends Command {
+  constructor() {
+    super('twitch', {
+      aliases: ['twitchin'],
+      info: 'follow me on twitch',
+      usage: 'twitch',
+      guildOnly: false,
+    });
+  }
+
+  async run(message) {
+    const msg = await message.channel.send('https://www.twitch.tv/ao1_slim745');
+
+    }
+}

@@ -1,0 +1,16 @@
+TODO list 
+
+1. write in music commands to help command 
+   a. add in how to use info 
+   b. test and correct
+   
+2. merge music and basic commands to one list
+  a. figure it out when i get there 
+  
+3. check links for correction
+  a. figure it out when i get there 
+  
+  codex 
+  xxxxx0 - fix for no input
+  xxxx0x - check back
+  xxx0xx - if prefix change
